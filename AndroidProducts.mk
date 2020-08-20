@@ -5,4 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cepheus.mk
+    $(LOCAL_DIR)/rr_cepheus.mk
+
+COMMON_LUNCH_CHOICES := \
+    rr_cepheus-userdebug \
+    rr_cepheus-eng

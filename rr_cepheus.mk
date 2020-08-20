@@ -7,10 +7,10 @@
 $(call inherit-product, device/xiaomi/cepheus/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_cepheus
+PRODUCT_NAME := rr_cepheus
 PRODUCT_DEVICE := cepheus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9
@@ -18,6 +18,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # Extra FOD stuff
 TARGET_HAS_FOD := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="cepheus" \
