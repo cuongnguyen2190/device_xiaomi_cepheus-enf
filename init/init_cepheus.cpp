@@ -57,6 +57,6 @@ void vendor_load_properties()
 {
     // fingerprint
     property_override("ro.build.description", "coral-user 10 QQ3A.200805.001 6578210 release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys");
 }
 
